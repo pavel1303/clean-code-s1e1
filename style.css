@@ -92,7 +92,7 @@
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .app-section__input {
   display:none;
@@ -108,7 +108,7 @@
   color: #888;
   outline: none;
   flex-grow: 1;
-  width: 226px
+  width: 226px;
 }
 .app-section__input:focus,
 .add-section__input:focus {
@@ -125,9 +125,9 @@
 .app-section__item--edit-mode 
 > .app-section__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .app-section__item--edit-mode 
 > .app-section__label{
-  display: none
+  display: none;
 }
