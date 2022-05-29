@@ -28,7 +28,6 @@
   margin: 0 auto 0;
 }
 .title {
-  color: #333;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -51,7 +50,6 @@
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
   color: #888;
   outline: none;
 }
@@ -62,7 +60,6 @@
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
   cursor: pointer;
   outline: none;
 }
@@ -104,7 +101,6 @@
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
   color: #888;
   outline: none;
   flex-grow: 1;
