@@ -15,7 +15,7 @@
 .header__link {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -37,6 +37,9 @@
   list-style: none;
   margin: 0 0 20px;
 }
+.title--hide{
+  visibility: hidden;
+}
 .add-section__form {
   display: flex;
 }
@@ -47,8 +50,8 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   color: #888;
   outline: none;
@@ -92,14 +95,14 @@
   flex-grow: 1;
 }
 .app-section__input {
-  display:none;
+  display: none;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   color: #888;
   outline: none;
@@ -126,4 +129,10 @@
 .app-section__item--edit-mode 
 > .app-section__label{
   display: none;
+}
+.completed-section__list 
+> .app-section__item
+> .app-section__label {
+  text-decoration: line-through;
+  color: #888;
 }
